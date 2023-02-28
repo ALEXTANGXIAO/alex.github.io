@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Alex # your blog title name
-subtitle:
-author: Alex # 作者
-language:
-timezone:
+title: Haojen # your blog title name
+subtitle:  
+author: Haojen Ma # 作者
+language: 
+timezone: 
 
 # custom Site settings
 # more detail check out docs
-SEOTitle: Alex's blog
-header-img: https://tcloud-1258327636.cos.ap-guangzhou.myqcloud.com/uploads/2023/02/28/bg.png #//cdn.jsdelivr.net/gh/Ao021/PicPub@master/20220902170530.png
-email: 574809918@qq.com
-description: "Alex在 Github 上的个人博客"
+SEOTitle: Haojen's blog 
+header-img: //o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg
+email: HaojenMa@gmail.com
+description: "马浩珍在 Github 上的个人博客"
 keyword: # seo key words
 
 favicon: # your favicon png
@@ -22,39 +22,40 @@ favicon: # your favicon png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://alex.github.io/
+url: http://haojen.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # SNS settings
 # RSS:
-weibo_username: alex
-zhihu_username: alextangxiao
-github_username: alextangxiao
-twitter_username: alextangxiao
-facebook_username:
-linkedin_username:
+weibo_username: haojen
+zhihu_username: megahertz
+github_username: haojen
+twitter_username: ehazon
+facebook_username:  
+linkedin_username:  
 
 # Build settings
-anchorjs: false # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: false                        # if you want to customize anchor. check out line:181 of `post.html`
 
-# Disqus settings
-disqus_username:
+
+# Disqus settings 
+disqus_username: 
 
 # Duoshuo settings
-duoshuo_username: # 你的多说帐号
+duoshuo_username:  # 你的多说帐号
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true # set to false if you want to use Comment without Sharing
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 # Use livere
 use_livere:
 
 # Valine comment system https://valine.js.org
-valine:
+valine: 
   enable: false
-  appid: #Leancloud应用的appId
-  appkey: #Leancloud应用的appKey
+  appid:  #Leancloud应用的appId
+  appkey:  #Leancloud应用的appKey
   verify: false #验证码
   notify: false #评论回复提醒
   avatar: mm #评论列表默认头像样式
@@ -64,19 +65,20 @@ valine:
 # Baidu Analytics
 ba_track_id:
 # Google Analytics
-ga_track_id: # Format: UA-xxxxxx-xx
+ga_track_id:             # Format: UA-xxxxxx-xx
 ga_domain:
 
 # Sidebar settings
-sidebar-about-description: 不会美术的策划不是一个好的程序！ # 个人描述
-sidebar-avatar: https://tcloud-1258327636.cos.ap-guangzhou.myqcloud.com/uploads/2023/02/28/avatar.png # use absolute URL
+sidebar-about-description: # 个人描述
+sidebar-avatar:     # use absolute URL
+
 
 # Featured Tags
-featured-tags: true # whether or not using Feature-Tags
-featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 # friends
-friends: # 友链
+friends:  # 友链
 
 # Directory
 source_dir: source
@@ -139,12 +141,13 @@ theme: Anisina
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
-  repo:
-  branch:
+  type: 
+  repo: 
+  branch: 
+
 
 # img CDN path
-cdn-url: # 你的CDN地址
+cdn-url:  # 你的CDN地址
 
 # Qiniu imageView2 API
 # More info http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
@@ -153,13 +156,14 @@ clip-avatar: "?imageView2/2/w/300/h/300/interlace/1/q/90"
 clip-home-post-bg: "?imageView2/1/w/800/h/300/interlace/1/q/70"
 
 # post default images
-post-default-img: https://tcloud-1258327636.cos.ap-guangzhou.myqcloud.com/uploads/2023/02/28/bg.png #博文默认的图片
-post-default-img-mobile: https://tcloud-1258327636.cos.ap-guangzhou.myqcloud.com/uploads/2023/02/28/bg.png #移动端显示的图片
+post-default-img: #博文默认的图片
+post-default-img-mobile: #移动端显示的图片
 
 # search api , set your custom key
-swiftype_key:
+swiftype_key: 
 
-# archive page title
+
+# archive page title 
 archive:
-  title: archives
-  description: 可以根据归档日期检索所有文件
+    title: archives
+    description: 可以根据归档日期检索所有文件
