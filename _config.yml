@@ -2,6 +2,8 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
+theme: jekyll-theme-modernist
+
 # Site
 title: Alex # your blog title name
 subtitle:
